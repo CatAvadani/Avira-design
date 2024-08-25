@@ -23,9 +23,9 @@ export default function HeroSection() {
       <div className='col-span-1 row-span-2 rounded-b-full rounded-tr-full bg-[#edebef] opacity-80  flex flex-col items-center justify-center text-center p-6 gap-12'>
         <div className='w-64 h-64 flex items-center justify-center rounded-full'>
           <img
-            src='/Diamond-transparent.png'
+            src='https://r2.erweima.ai/imgcompressed/img/compressed_5d24bf3b4cd3711d41c7473b96bd4ca8.webp'
             alt='Image'
-            className='w-full h-full rounded-full object-cover'
+            className='w-full h-full  object-cover'
           />
         </div>
         <h1 className='text-xl font-sans p-4'>
