@@ -1,3 +1,5 @@
+import Button from './Button';
+
 export default function HeroSection() {
   return (
     <div className='grid grid-cols-3 grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto'>
@@ -13,9 +15,7 @@ export default function HeroSection() {
           <h1 className='text-white text-6xl font-bold drop-shadow-lg  font-serif tracking-wider'>
             Discover Timeless <br /> Elegance
           </h1>
-          <button className='px-4 py-2   bg-[#ff6200]  w-44 text-white '>
-            Explore
-          </button>
+          <Button buttonType='primary'>Explore</Button>
         </div>
       </div>
 
@@ -32,9 +32,7 @@ export default function HeroSection() {
           Experience the finest craftsmanship and timeless design with our
           exclusive collection.
         </h1>
-        <button className='px-4 py-2  border border-[#ff6200]  text-[#ff6200]  '>
-          Collection
-        </button>
+        <Button buttonType='secondary'>Collection</Button>
       </div>
 
       {/* Bottom Left */}
