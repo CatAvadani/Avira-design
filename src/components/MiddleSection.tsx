@@ -10,8 +10,8 @@ export default function MiddleSection() {
         muted
         className='w-full h-[50vh] object-cover'
       ></video>
-      <div className='absolute inset-0 bg-black/50 top-0 left-0 w-full flex flex-col justify-center items-center gap-8'>
-        <h1 className=' text-4xl text-white font-sans capitalize'>
+      <div className='absolute inset-0 bg-black/50 top-0 left-0 w-full flex flex-col justify-center items-center gap-12'>
+        <h1 className=' text-xl px-8 text-center sm:text-4xl text-white font-sans capitalize'>
           Introducing Our Latest Collection. Timeless Elegance Meets Modern
           Design.
         </h1>
