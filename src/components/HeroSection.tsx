@@ -21,7 +21,7 @@ export default function HeroSection() {
 
       {/* Top Right*/}
       <div className='col-span-1 row-span-2 rounded-b-full rounded-tr-full bg-[#edebef] opacity-80  flex flex-col items-center justify-center text-center p-6 gap-12'>
-        <div className='w-64 h-64 flex items-center justify-center rounded-full'>
+        <div className='w-56 h-56 flex items-center justify-center rounded-full'>
           <img
             src='https://r2.erweima.ai/imgcompressed/img/compressed_5d24bf3b4cd3711d41c7473b96bd4ca8.webp'
             alt='Image'
