@@ -1,3 +1,5 @@
+import Button from './Button';
+
 export default function HeroSection() {
   return (
     <div className='grid grid-cols-3 grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto'>
@@ -13,15 +15,13 @@ export default function HeroSection() {
           <h1 className='text-white text-6xl font-bold drop-shadow-lg  font-serif tracking-wider'>
             Discover Timeless <br /> Elegance
           </h1>
-          <button className='px-4 py-2   bg-[#ff6200]  w-44 text-white '>
-            Explore
-          </button>
+          <Button buttonType='primary'>Explore</Button>
         </div>
       </div>
 
       {/* Top Right*/}
       <div className='col-span-1 row-span-2 rounded-b-full rounded-tr-full bg-[#edebef] opacity-80  flex flex-col items-center justify-center text-center p-6 gap-12'>
-        <div className='w-64 h-64 flex items-center justify-center rounded-full'>
+        <div className='w-56 h-56 flex items-center justify-center rounded-full'>
           <img
             src='https://r2.erweima.ai/imgcompressed/img/compressed_5d24bf3b4cd3711d41c7473b96bd4ca8.webp'
             alt='Image'
@@ -32,9 +32,7 @@ export default function HeroSection() {
           Experience the finest craftsmanship and timeless design with our
           exclusive collection.
         </h1>
-        <button className='px-4 py-2  border border-[#ff6200]  text-[#ff6200]  '>
-          Collection
-        </button>
+        <Button buttonType='secondary'>Collection</Button>
       </div>
 
       {/* Bottom Left */}

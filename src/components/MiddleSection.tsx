@@ -1,3 +1,5 @@
+import Button from './Button';
+
 export default function MiddleSection() {
   return (
     <div className='relative bg-[#1a0d2b] w-full mt-20 '>
@@ -13,9 +15,8 @@ export default function MiddleSection() {
           Introducing Our Latest Collection. Timeless Elegance Meets Modern
           Design.
         </h1>
-        <button className='px-4 py-2   bg-[#ff6200]  w-44 text-white '>
-          Discover Now
-        </button>
+
+        <Button buttonType='primary'>Discover Now</Button>
       </div>
     </div>
   );
