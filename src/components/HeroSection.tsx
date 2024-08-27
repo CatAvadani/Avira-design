@@ -4,9 +4,9 @@ export default function HeroSection() {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto'>
       {/* Top Left  */}
-      <div className='col-span-1 sm:col-span-2 sm:row-span-2 rounded-tr-[200px] overflow-hidden bg-[#301951] relative'>
+      <div className='col-span-1 sm:col-span-2 sm:row-span-2 h-[100vh] rounded-tr-[200px] overflow-hidden bg-[#301951] relative'>
         <img
-          src='https://img.freepik.com/free-photo/beautiful-model-with-ponytail-makeup_144627-1328.jpg?t=st=1724588595~exp=1724592195~hmac=d97a04427bba65295335c55f4e9567c177ad7b481c1e09c7a3323de907383414&w=1380'
+          src='https://img.freepik.com/free-photo/beautiful-model-with-ponytail-makeup_144627-1328.jpg?uid=R96715954&ga=GA1.1.560549918.1722724050'
           alt='Image'
           className='w-full h-full object-cover'
         />
@@ -20,8 +20,8 @@ export default function HeroSection() {
       </div>
 
       {/* Top Right*/}
-      <div className='col-span-1 rounded-md sm:row-span-2 sm:rounded-b-full sm:rounded-tr-full bg-[#edebef] opacity-80 flex flex-col items-center justify-center text-center p-6 gap-4 sm:gap-12'>
-        <div className='w-20 h-20 sm:w-56 sm:h-56 flex items-center justify-center rounded-full'>
+      <div className='col-span-1 rounded-md sm:row-span-2 sm:rounded-b-full sm:rounded-tr-full bg-[#edebef]/80 flex flex-col items-center justify-center text-center p-6 gap-4 sm:gap-12'>
+        <div className='w-20 h-20 sm:w-44 sm:h-44 flex items-center justify-center rounded-full'>
           <img
             src='https://r2.erweima.ai/imgcompressed/img/compressed_5d24bf3b4cd3711d41c7473b96bd4ca8.webp'
             alt='Image'
@@ -42,7 +42,7 @@ export default function HeroSection() {
           standards of quality. Experience the excellence that has defined our
           brand for over a century.
         </p>
-        <p className='text-orange-600 underline'>
+        <p className='text-[#ff6200] underline'>
           <a href='http://'>Learn More About Our Craft.</a>
         </p>
       </div>

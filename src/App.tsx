@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-      <body className='bg-[#301951] flex flex-col justify-center items-center min-h-screen'>
+      <body className='bg-[#301951] flex flex-col justify-center items-center min-h-screen font-sans'>
         <Navbar />
         <main className='flex-1 w-full'>
           <Outlet />
