@@ -2,9 +2,9 @@ import Button from './Button';
 
 export default function HeroSection() {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto'>
       {/* Top Left  */}
-      <div className='col-span-1 sm:col-span-2 sm:row-span-2 h-[100vh] rounded-tr-[200px] overflow-hidden bg-[#301951] relative'>
+      <div className='col-span-1 sm:col-span-2 sm:row-span-2 sm:h-[100vh] rounded-tr-[200px] overflow-hidden bg-[#301951] relative'>
         <img
           src='/Hero-img.png'
           alt='Image'
