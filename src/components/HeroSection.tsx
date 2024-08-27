@@ -23,7 +23,7 @@ export default function HeroSection() {
       <div className='col-span-1 rounded-md sm:row-span-2 sm:rounded-b-full sm:rounded-tr-full bg-[#edebef]/80 flex flex-col items-center justify-center text-center p-6 gap-4 sm:gap-12'>
         <div className='w-20 h-20 sm:w-44 sm:h-44 flex items-center justify-center rounded-full'>
           <img
-            src='https://r2.erweima.ai/imgcompressed/img/compressed_5d24bf3b4cd3711d41c7473b96bd4ca8.webp'
+            src='/Diamond.png'
             alt='Image'
             className='w-full h-full object-cover'
           />
