@@ -4,7 +4,7 @@ export default function MiddleSection() {
   return (
     <div className='relative  w-full mt-20 '>
       <video
-        src='https://cdn.pixabay.com/video/2018/11/10/19253-300109077_large.mp4'
+        src='/ring-video.mp4'
         autoPlay
         loop
         muted

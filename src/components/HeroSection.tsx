@@ -2,11 +2,11 @@ import Button from './Button';
 
 export default function HeroSection() {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 sm:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto'>
       {/* Top Left  */}
-      <div className='col-span-1 sm:col-span-2 sm:row-span-2 h-[100vh] rounded-tr-[200px] overflow-hidden bg-[#301951] relative'>
+      <div className='col-span-1 sm:col-span-2 sm:row-span-2 sm:h-[100vh] rounded-tr-[200px] overflow-hidden bg-[#301951] relative'>
         <img
-          src='/hero-1.png'
+          src='/Hero-img.png'
           alt='Image'
           className='w-full h-full object-cover'
         />
@@ -23,7 +23,7 @@ export default function HeroSection() {
       <div className='col-span-1 rounded-md sm:row-span-2 sm:rounded-b-full sm:rounded-tr-full bg-[#edebef]/80 flex flex-col items-center justify-center text-center p-6 gap-4 sm:gap-12'>
         <div className='w-20 h-20 sm:w-44 sm:h-44 flex items-center justify-center rounded-full'>
           <img
-            src='https://r2.erweima.ai/imgcompressed/img/compressed_5d24bf3b4cd3711d41c7473b96bd4ca8.webp'
+            src='/Diamond.png'
             alt='Image'
             className='w-full h-full object-cover'
           />
@@ -51,7 +51,7 @@ export default function HeroSection() {
       <div className='col-span-1 row-span-1 rounded-br-xl overflow-hidden relative flex items-center justify-center bg-transparent mt-16 sm:mt-0'>
         <div className='w-32 h-32 sm:w-full sm:h-full flex items-center justify-center rounded-full'>
           <img
-            src='https://images.unsplash.com/photo-1588445046108-14dced0c98fb?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+            src='/Diamond-ring.jpg'
             alt='Image'
             className='w-full h-full rounded-full object-cover'
           />
