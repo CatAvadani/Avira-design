@@ -6,7 +6,7 @@ export default function HeroSection() {
       {/* Top Left  */}
       <div className='col-span-1 sm:col-span-2 sm:row-span-2 h-[100vh] rounded-tr-[200px] overflow-hidden bg-[#301951] relative'>
         <img
-          src='/hero-1.png'
+          src='/Hero-img.png'
           alt='Image'
           className='w-full h-full object-cover'
         />
@@ -51,7 +51,7 @@ export default function HeroSection() {
       <div className='col-span-1 row-span-1 rounded-br-xl overflow-hidden relative flex items-center justify-center bg-transparent mt-16 sm:mt-0'>
         <div className='w-32 h-32 sm:w-full sm:h-full flex items-center justify-center rounded-full'>
           <img
-            src='https://images.unsplash.com/photo-1588445046108-14dced0c98fb?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+            src='/Diamond-ring.jpg'
             alt='Image'
             className='w-full h-full rounded-full object-cover'
           />
