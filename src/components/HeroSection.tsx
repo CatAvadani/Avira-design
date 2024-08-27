@@ -6,7 +6,7 @@ export default function HeroSection() {
       {/* Top Left  */}
       <div className='col-span-1 sm:col-span-2 sm:row-span-2 h-[100vh] rounded-tr-[200px] overflow-hidden bg-[#301951] relative'>
         <img
-          src='https://img.freepik.com/free-photo/beautiful-model-with-ponytail-makeup_144627-1328.jpg?uid=R96715954&ga=GA1.1.560549918.1722724050'
+          src='/hero-1.png'
           alt='Image'
           className='w-full h-full object-cover'
         />
