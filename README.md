@@ -1,13 +1,5 @@
 # Avira - Web Design & Development
 
-<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20; justify-content: space-around; ">
-   <img src="public/Avira-full-img.png" alt="home-page-desktop" width="150">
-   <img src="public/Desktop-wireframe.png" alt="home-page-mobile" width="150">
-   
- </div>
-
-## Project Overview
-
 ### Requirements
 
 - **Graphical Profile:** Utilized the graphical profile from the first assignment.
@@ -26,8 +18,8 @@
 
 ## Project Structure
 
-- **Wireframes:** Wireframes were created to outline the structure of the website for both desktop and mobile views. They provide a skeletal framework for the layout.
-- **Mockups:** High-fidelity mockups were created based on the wireframes, applying the graphical profile to visualize the final design.
+- **Wireframes:** 
+- **Mockups:** 
 - **Website:** The website was then implemented using React and Tailwind CSS, following the design guidelines established in the mockups.
 
 ## Installation
