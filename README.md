@@ -1,10 +1,11 @@
 # Avira - Web Design & Development
 
-<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20; justify-content: space-around;">
-   <img src="/Avira-full-img.png" alt="home-page-desktop">
-   <img src="/Desktop-wireframe.png" alt="home-page-mobile">
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20; justify-content: space-around; ">
+   <img src="public/Avira-full-img.png" alt="home-page-desktop" width="150">
+   <img src="public/Desktop-wireframe.png" alt="home-page-mobile" width="150">
+   
+ </div>
 
-</div>
 ## Project Overview
 
 ### Requirements
