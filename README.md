@@ -2,9 +2,7 @@
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20; justify-content: space-around;">
    <img src="/Avira-full-img.png" alt="home-page-desktop">
-   <img src="/Avira-mobile.png" alt="home-page-mobile">
    <img src="/Desktop-wireframe.png" alt="home-page-mobile">
-   <img src="/Mobile-wirefram.png" alt="home-page-mobile">
 
 </div>
 ## Project Overview
