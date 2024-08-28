@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# Avira - Web Design & Development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20; justify-content: space-around;">
+   <img src="/Avira-full-img.png" alt="home-page-desktop">
+   <img src="/Avira-mobile.png" alt="home-page-mobile">
+   <img src="/Desktop-wireframe.png" alt="home-page-mobile">
+   <img src="/Mobile-wirefram.png" alt="home-page-mobile">
 
-Currently, two official plugins are available:
+</div>
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Requirements
 
-## Expanding the ESLint configuration
+- **Graphical Profile:** Utilized the graphical profile from the first assignment.
+- **Wireframes & Mockups:** Created wireframes and mockups for both desktop (1440px) and mobile (640px) views.
+- **Website Content:**
+  - **Logo:** The website includes the logo created in the first assignment.
+  - **Presentation:** A section dedicated to a personal or project presentation.
+  - **Contact Section:** A contact form or contact information section.
+  - **Product/Service Examples:** At least two examples of products or services offered.
+  - **Design Only:** The website focuses on illustrating a functional design using HTML and CSS. No JavaScript or TypeScript functionality is required.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Technology Stack
 
-- Configure the top-level `parserOptions` property like this:
+- **React:**
+- **Tailwind CSS:**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Project Structure
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Wireframes:** Wireframes were created to outline the structure of the website for both desktop and mobile views. They provide a skeletal framework for the layout.
+- **Mockups:** High-fidelity mockups were created based on the wireframes, applying the graphical profile to visualize the final design.
+- **Website:** The website was then implemented using React and Tailwind CSS, following the design guidelines established in the mockups.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Installation
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the repository**
+
+   ```bash
+   git clone (https://github.com/CatAvadani/Avira-design.git)
+   cd avira-design
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```

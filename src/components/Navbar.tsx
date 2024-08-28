@@ -52,38 +52,40 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
-        <div className='lg:hidden flex flex-col items-center mt-4 text-xl space-y-8'>
-          <Link
-            to='/'
-            className='py-2 hover:text-white/65 transition-all'
-            onClick={toggleMenu}
-          >
-            Home
-          </Link>
-          <Link
-            to='/collections'
-            className='py-2 hover:text-white/65 transition-all'
-            onClick={toggleMenu}
-          >
-            Collections
-          </Link>
-          <Link
-            to='/about'
-            className='py-2 hover:text-white/65 transition-all'
-            onClick={toggleMenu}
-          >
-            About
-          </Link>
-          <Link
-            to='/contact'
-            className='py-2 hover:text-white/65 transition-all'
-            onClick={toggleMenu}
-          >
-            Contact
-          </Link>
-        </div>
-      )}
+      <div
+        className={`lg:hidden flex flex-col items-center mt-4 text-xl space-y-8 overflow-hidden transition-all duration-500 ease-in-out ${
+          isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <Link
+          to='/'
+          className='py-2 hover:text-white/65 transition-all'
+          onClick={toggleMenu}
+        >
+          Home
+        </Link>
+        <Link
+          to='/collections'
+          className='py-2 hover:text-white/65 transition-all'
+          onClick={toggleMenu}
+        >
+          Collections
+        </Link>
+        <Link
+          to='/about'
+          className='py-2 hover:text-white/65 transition-all'
+          onClick={toggleMenu}
+        >
+          About
+        </Link>
+        <Link
+          to='/contact'
+          className='py-2 hover:text-white/65 transition-all'
+          onClick={toggleMenu}
+        >
+          Contact
+        </Link>
+      </div>
     </nav>
   );
 }
