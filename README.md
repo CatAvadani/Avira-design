@@ -5,6 +5,7 @@
    <img src="public/Desktop-wireframe.png" alt="home-page-mobile" width="150">
    
  </div>
+
 ## Project Overview
 
 ### Requirements
