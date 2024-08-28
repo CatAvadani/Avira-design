@@ -1,15 +1,13 @@
 # Avira - Web Design & Development
 
+[Demo Link](https://avira-design.vercel.app/)
+
 ### Requirements
 
 - **Graphical Profile:** Utilized the graphical profile from the first assignment.
 - **Wireframes & Mockups:** Created wireframes and mockups for both desktop (1440px) and mobile (640px) views.
-- **Website Content:**
   - **Logo:** The website includes the logo created in the first assignment.
-  - **Presentation:** A section dedicated to a personal or project presentation.
-  - **Contact Section:** A contact form or contact information section.
-  - **Product/Service Examples:** At least two examples of products or services offered.
-  - **Design Only:** The website focuses on illustrating a functional design using HTML and CSS. No JavaScript or TypeScript functionality is required.
+  - **Design Only:** The website focuses on illustrating a functional design using HTML and CSS. 
 
 ### Technology Stack
 
@@ -18,9 +16,9 @@
 
 ## Project Structure
 
-- **Wireframes:** 
-- **Mockups:** 
-- **Website:** The website was then implemented using React and Tailwind CSS, following the design guidelines established in the mockups.
+- **Wireframes** 
+- **Mockups** 
+- **Website** The website was then implemented using React and Tailwind CSS, following the design guidelines established in the mockups.
 
 ## Installation
 
