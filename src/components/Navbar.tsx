@@ -10,7 +10,10 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='w-full bg-transparent text-[#edebef] px-4 lg:px-28 py-4'>
+    <nav
+      id='navigation'
+      className='w-full bg-transparent text-[#edebef] px-4 lg:px-28 py-4'
+    >
       <div className='flex justify-between items-center mb-4 lg:hidden'>
         <Link to='/'>
           <img src='/Logo-resized@1.5x.png' className='w-32' alt='Logo' />

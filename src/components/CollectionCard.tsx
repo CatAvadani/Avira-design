@@ -1,3 +1,6 @@
+import { ChevronDoubleRightIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
+
 export interface CollectionCardProps {
   id: number;
   title: string;
@@ -9,12 +12,18 @@ export default function CollectionCard({
   description,
 }: CollectionCardProps) {
   return (
-    <div className=' bg-white/10 px-2 sm:p-4 flex flex-col sm:gap-4 hover:opacity-80 transition-all mx-auto'>
-      <h3 className='  text-lg font-bold'>{title}</h3>
-      <p className=' text-sm'>{description}</p>
-      <p className=' text-sm text-white underline hover:text-black/45 transition-all'>
-        View Collection
-      </p>
+    <div className=' bg-white/10 p-4 flex flex-col gap-4 hover:opacity-80 transition-all mx-auto'>
+      <h3 className=' text-sm  sm:text-xl font-bold'>{title}</h3>
+      <p className=' text-sm sm:text-lg'>{description}</p>
+      <Link
+        to=''
+        className=' flex gap-3 justify-start items-center  text-lg text-white underline hover:text-black/45 transition-all duration-300'
+      >
+        View Collection{' '}
+        <span>
+          <ChevronDoubleRightIcon className='size-5 ' />
+        </span>
+      </Link>
     </div>
   );
 }

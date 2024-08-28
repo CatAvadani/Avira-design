@@ -1,8 +1,12 @@
+import { Link } from 'react-scroll';
 import Button from './Button';
 
 export default function HeroSection() {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-2 lg:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto'>
+    <div
+      id='hero-section'
+      className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-2 lg:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto '
+    >
       {/* Top Left  */}
       <div
         className='col-span-1 row-span-1 lg:col-span-2 lg:row-span-2 lg:h-[100vh]
@@ -18,7 +22,15 @@ export default function HeroSection() {
           <h1 className='text-white text-2xl sm:text-4xl lg:text-6xl font-bold drop-shadow-lg font-serif tracking-wider'>
             Discover Timeless <br /> Elegance
           </h1>
-          <Button buttonType='primary'>Explore</Button>
+          <Link
+            to='middle-section'
+            smooth={true}
+            duration={500}
+            offset={-70}
+            className=' cursor-pointer'
+          >
+            <Button buttonType='primary'>Explore</Button>
+          </Link>
         </div>
       </div>
 
@@ -35,7 +47,15 @@ export default function HeroSection() {
           Experience the finest craftsmanship and timeless design with our
           exclusive collection.
         </h1>
-        <Button buttonType='secondary'>Collection</Button>
+        <Link
+          to='new-collections'
+          smooth={true}
+          duration={500}
+          offset={-70}
+          className=' cursor-pointer'
+        >
+          <Button buttonType='secondary'>Collection</Button>
+        </Link>
       </div>
 
       {/* Bottom Left */}
