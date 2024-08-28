@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Footer from './components/Footer';
+import FooterTop from './components/FooterTop';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <main className='flex-1 w-full'>
           <Outlet />
         </main>
+        <FooterTop />
         <Footer />
       </body>
     </>
