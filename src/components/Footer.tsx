@@ -25,7 +25,7 @@ export default function Footer() {
           placeholder='Enter your email'
           className='w-full h-10 bg-white/30 text-white/70 px-4 mt-4'
         />
-        <button className='w-full h-10 bg-[#ff8500] text- mt-4'>
+        <button className='w-full h-10 bg-[#ff8500] hover:bg-[#ff8500]/80 transition-colors duration-200 text-white mt-4'>
           Subscribe
         </button>
       </div>
@@ -48,10 +48,10 @@ export default function Footer() {
           </li>
         </ul>
         <Link
-          to='navigation'
+          to='hero-section'
           smooth={true}
           duration={500}
-          offset={-70}
+          offset={-150}
           className=' cursor-pointer'
         >
           <div className=' flex justify-center items-center gap-2'>
