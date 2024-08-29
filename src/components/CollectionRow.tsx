@@ -18,7 +18,7 @@ export default function CollectionRow({
           <ProductCard key={product.id} {...product} />
         ))}
       </div>
-      <div className='flex justify-center mt-4'>
+      <div className='flex justify-center mt-8'>
         <Button buttonType='secondary'>View More</Button>
       </div>
     </div>

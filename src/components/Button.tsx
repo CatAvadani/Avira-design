@@ -6,7 +6,7 @@ type ButtonProps = {
 export default function Button({ buttonType, children }: ButtonProps) {
   return (
     <button
-      className={`px-4 py-2 text-xl hover:cursor-pointer hover:opacity-90 max-w-44
+      className={`px-4 py-2 text-xl hover:cursor-pointer hover:opacity-90 min-w-44 sm:min-w-52
           ${
             buttonType === 'primary'
               ? 'bg-[#ff8500] text-white'
