@@ -6,9 +6,7 @@ export default function Contact() {
 
   return (
     <div className='bg-white/20 pb-24 sm:py-4 sm:pb-44 m-2 p-4 sm:m-20 mb-44 sm:my-44'>
-      <h2 className='text-3xl font-bold tracking-tight text-white sm:text-4xl text-center sm:mt-10'>
-        Get in touch
-      </h2>
+      <h2 className='text-3xl text-white text-center sm:mt-10'>Get in touch</h2>
       <form action='#' method='POST' className='mx-auto mt-4 max-w-xl sm:mt-10'>
         <div className='grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2'>
           <div>

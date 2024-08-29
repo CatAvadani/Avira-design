@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import Button from './Button';
 
 export default function HeroSection() {
@@ -23,7 +23,7 @@ export default function HeroSection() {
             Discover Timeless <br /> Elegance
           </h1>
           <Link
-            to='middle-section'
+            to='new-collections'
             smooth={true}
             duration={500}
             offset={-70}
@@ -48,7 +48,7 @@ export default function HeroSection() {
           exclusive collection.
         </h1>
         <Link
-          to='new-collections'
+          to='/collections'
           smooth={true}
           duration={500}
           offset={-70}
