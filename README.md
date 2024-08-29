@@ -1,8 +1,8 @@
 # Avira - Web Design & Development
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20; justify-content: space-around;">
-   <img src="public/Avira-img1.png" alt="Splash Screen" width="200">
-   <img src="public/Avira-img2.png" alt="Home Screen" width="300">
+   <img src="public/Avira-img1.png" alt="Splash Screen" width="135">
+   <img src="public/Avira-img2.png" alt="Home Screen" width="195">
 
 </div>
 
