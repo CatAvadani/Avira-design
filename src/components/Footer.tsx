@@ -1,7 +1,6 @@
 import { BsInstagram } from 'react-icons/bs';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-import { FaArrowUpLong, FaXTwitter } from 'react-icons/fa6';
-import { Link } from 'react-scroll';
+import { FaXTwitter } from 'react-icons/fa6';
 import { footerLinks } from '../data/FooterLinks';
 import '../index.css';
 import FooterLinks from './FooterLinks';
@@ -47,20 +46,6 @@ export default function Footer() {
             <BsInstagram />
           </li>
         </ul>
-        <Link
-          to='hero-section'
-          smooth={true}
-          duration={500}
-          offset={-150}
-          className=' cursor-pointer'
-        >
-          <div className=' flex justify-center items-center gap-2'>
-            <p className=' text-white/80 hover:text-gray-200 transition-all'>
-              Back
-            </p>
-            <FaArrowUpLong className=' size-4 text-[#ff6500] hover:scale-y-150 transition-all' />
-          </div>
-        </Link>
       </div>
     </div>
   );

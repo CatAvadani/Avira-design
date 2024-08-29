@@ -16,7 +16,7 @@ export default function CollectionCard({
       <h3 className=' text-sm  sm:text-xl font-bold'>{title}</h3>
       <p className=' text-sm sm:text-lg'>{description}</p>
       <Link
-        to=''
+        to='#'
         className=' flex gap-3 justify-start items-center  text-lg text-white underline hover:text-black/45 transition-all duration-300'
       >
         View Collection{' '}

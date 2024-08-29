@@ -4,9 +4,7 @@ export default function About() {
   return (
     <div className='bg-white/20 pb-24 sm:py-4 sm:pb-44 m-2 p-4 sm:m-20 mb-44 sm:my-44 flex flex-col gap-16 justify-center items-center'>
       <div className='max-w-2xl flex flex-col justify-center items-center gap-4'>
-        <h2 className='text-3xl font-bold tracking-tight text-white sm:text-4xl sm:mt-10'>
-          Meet Our Team
-        </h2>
+        <h2 className='text-3xl text-white sm:mt-10'>Meet Our Team</h2>
         <p className='mt-6 text-lg leading-8 text-white text-center'>
           Together, they drive the vision and growth of our company, ensuring
           that we continue to set the standard in the luxury market.

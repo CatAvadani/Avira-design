@@ -1,4 +1,5 @@
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import Button from './Button';
 
 export default function HeroSection() {
@@ -22,15 +23,15 @@ export default function HeroSection() {
           <h1 className='text-white text-2xl sm:text-4xl lg:text-6xl font-bold drop-shadow-lg font-serif tracking-wider'>
             Discover Timeless <br /> Elegance
           </h1>
-          <Link
-            to='middle-section'
+          <ScrollLink
+            to='new-collections'
             smooth={true}
             duration={500}
             offset={-70}
             className=' cursor-pointer'
           >
             <Button buttonType='primary'>Explore</Button>
-          </Link>
+          </ScrollLink>
         </div>
       </div>
 
@@ -47,13 +48,7 @@ export default function HeroSection() {
           Experience the finest craftsmanship and timeless design with our
           exclusive collection.
         </h1>
-        <Link
-          to='new-collections'
-          smooth={true}
-          duration={500}
-          offset={-70}
-          className=' cursor-pointer'
-        >
+        <Link to='/collections' className=' cursor-pointer'>
           <Button buttonType='secondary'>Collection</Button>
         </Link>
       </div>
@@ -66,7 +61,7 @@ export default function HeroSection() {
           brand for over a century.
         </p>
         <p className='text-[#ff6200] underline'>
-          <a href='http://'>Learn More About Our Craft.</a>
+          <a href='#'>Learn More About Our Craft.</a>
         </p>
       </div>
 
