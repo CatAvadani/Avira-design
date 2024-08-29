@@ -18,8 +18,8 @@ export default function ProductCard({ title, price, image }: ProductCardProps) {
         <div className=' flex justify-between items-center'>
           <p className='text-lg text-indigo-600'>{price} KR</p>
           <div className=' flex justify-end items-center gap-4'>
-            <ShoppingBagIcon className='size-6 cursor-pointer' />
-            <HeartIcon className='size-7 cursor-pointer text-red-700' />
+            <ShoppingBagIcon className='w-5 h-5 sm:w-6 sm:h-6 cursor-pointer' />
+            <HeartIcon className=' w-5 h-5 sm:w-7 sm:h-7 cursor-pointer text-red-700' />
           </div>
         </div>
       </div>
