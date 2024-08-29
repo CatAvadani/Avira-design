@@ -1,5 +1,6 @@
 import Collections from '../components/Collections';
 import CollectionTop from '../components/CollectionTop';
+import FloatingButtons from '../components/FloatingButtons';
 import HeroSection from '../components/HeroSection';
 import MiddleSection from '../components/MiddleSection';
 import TrendingProducts from '../components/Trending';
@@ -14,6 +15,7 @@ export default function Home() {
       <Collections />
       <TrendingTop />
       <TrendingProducts />
+      <FloatingButtons />
     </div>
   );
 }
