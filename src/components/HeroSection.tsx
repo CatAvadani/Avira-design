@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <div
       id='hero-section'
-      className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-2 lg:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto '
+      className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-2 lg:grid-rows-3 gap-4 p-4 max-w-screen-xl min-h-screen mx-auto sm:mt-40'
     >
       {/* Top Left  */}
       <div

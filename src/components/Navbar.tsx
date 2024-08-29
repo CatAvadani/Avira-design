@@ -12,9 +12,9 @@ export default function Navbar() {
   return (
     <nav
       id='navigation'
-      className='w-full bg-transparent text-[#edebef] px-4 lg:px-28 py-4'
+      className='w-full sm:fixed z-10 top-5 sm:left-[50%] sm:translate-x-[-50%] px-4 lg:px-28 py-4 backdrop-blur-lg bg-[#301951]/80 text-[#edebef] sm:rounded-full max-w-5xl mx-auto'
     >
-      <div className='flex justify-between items-center mb-4 lg:hidden'>
+      <div className='flex justify-between items-center mb-2 lg:hidden'>
         <Link to='/'>
           <img src='/Logo-resized@1.5x.png' className='w-32' alt='Logo' />
         </Link>
@@ -31,8 +31,8 @@ export default function Navbar() {
         <Link to='/'>
           <img src='/Logo-resized@1.5x.png' className='w-40 mb-4' alt='Logo' />
         </Link>
-        <div className='border-b border-white/20 w-full mb-4'></div>
-        <div className='flex gap-16'>
+        <div className='border-b border-white/20 w-full mb-2'></div>
+        <div className='flex gap-16 '>
           <Link to='/' className='hover:text-white/65 transition-all'>
             Home
           </Link>

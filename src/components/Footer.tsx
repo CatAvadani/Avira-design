@@ -48,10 +48,10 @@ export default function Footer() {
           </li>
         </ul>
         <Link
-          to='navigation'
+          to='hero-section'
           smooth={true}
           duration={500}
-          offset={-70}
+          offset={-150}
           className=' cursor-pointer'
         >
           <div className=' flex justify-center items-center gap-2'>
